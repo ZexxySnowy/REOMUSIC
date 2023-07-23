@@ -84,11 +84,10 @@ async def unban_assistant_(_, CallbackQuery):
         return await CallbackQuery.edit_message_text(
             "ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ ᴜɴʙᴀɴɴᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ 😊.\n\nᴛʀʏ ᴘʟᴀʏɪɴɢ ɴᴏᴡ..."
         )
-@app.on_callback_query(filters.regex("source")& ~BANNED_USERS)
+@app.on_callback_query(filters.regex("^source$")& ~BANNED_USERS)
 async def source(client,query: CallbackQuery):
-    if query.data=="source":
-        await query.edit_message_media(media=InputMediaVideo("https://te.legra.ph/file/9a5019c9245db95e06c79.mp4"),reply_markup=close_key)
-        await query.answer("Landh lele mera", show_alert=True)
+    await query.edit_message_media(media=InputMediaVideo("https://te.legra.ph/file/9a5019c9245db95e06c79.mp4"),reply_markup=close_key)
+    await query.answer("Landh lele mera", show_alert=True)
 @app.on_callback_query(filters.regex("ADMIN") & ~BANNED_USERS)
 @languageCB
 async def del_back_playlist(client, CallbackQuery, _):
