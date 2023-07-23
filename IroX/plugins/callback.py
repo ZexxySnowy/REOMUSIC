@@ -86,7 +86,7 @@ async def unban_assistant_(_, CallbackQuery):
         )
 @app.on_callback_query(filters.regex("^source$")& ~BANNED_USERS)
 async def source(client,query: CallbackQuery):
-    await query.edit_message_media(media=InputMediaVideo("https://te.legra.ph/file/9a5019c9245db95e06c79.mp4"),reply_markup=close_key)
+    await query.edit_message_media(media=InputMediaVideo("https://te.legra.ph/file/9a5019c9245db95e06c79.mp4"),reply_markup=close_keyboard)
     await query.answer("Landh lele mera", show_alert=True)
 @app.on_callback_query(filters.regex("ADMIN") & ~BANNED_USERS)
 @languageCB
