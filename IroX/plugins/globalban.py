@@ -6,10 +6,10 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from config import OWNER_ID
 from strings import get_command
 from IroX import app
 from IroX.misc import SUDOERS
+from IroX.misc import OWNER_ID
 from IroX.utils import get_readable_time
 from IroX.utils.database import (add_banned_user,
                                        get_banned_count,
