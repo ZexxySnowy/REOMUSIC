@@ -24,7 +24,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Iro x ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "˹ᴘᴧɴᴅᴧ ꭙ ᴍᴜsɪᴄ˼")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "6045293810").split())
@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+    "SUPPORT_CHANNEL", "https://t.me/TheAltron")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/iro_x_support")
+    "SUPPORT_GROUP", "https://t.me/AltronChats")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -68,7 +68,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/shaeep043/Iro_x")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Chetanthakur03/Panda")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -114,61 +114,61 @@ confirmer = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/5fb1d6a6dd6555ff52ad8.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/bb3d5c915aff8da9591af.jpg"")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/eee5e3d03dbfcf6514595.jpg",
+    "https://te.legra.ph/file/b8396c0e6e5d2377e2708.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/c5ae7505b832353b2dbfc.jpg",
+    "https://te.legra.ph/file/8ebd9a94786c50e6a44fe.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/df481726bdfafdbc7d85c.jpg",
+    "https://te.legra.ph/file/8ebd9a94786c50e6a44fe.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/df481726bdfafdbc7d85c.jpg",
+    "https://te.legra.ph/file/e503fd3eb96c2da1a6d2f.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e8720ce3df1808471b23d.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e8720ce3df1808471b23d.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e8720ce3df1808471b23d.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e8720ce3df1808471b23d.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/389f11da55c1c1a60a215.jpg",
+    "https://te.legra.ph/file/e503fd3eb96c2da1a6d2f.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e503fd3eb96c2da1a6d2f.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/a44ac871100a1aabb360f.jpg",
+    "https://te.legra.ph/file/e503fd3eb96c2da1a6d2f.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
