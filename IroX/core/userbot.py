@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("iro_x_support")
-                await self.one.join_chat("iro_bot_support")
+                await self.one.join_chat("AltronChats")
+                await self.one.join_chat("Altronchats")
             except:
                 pass
             assistants.append(1)
