@@ -24,24 +24,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✼ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴩ ✼",
+                text="✼ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ✼",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=new",
             ),
             InlineKeyboardButton(
-                text="✼ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐂ʜᴀɴɴᴇʟ ✼",
-                url=f"https://t.me/{BOT_USERNAME}?startgroup=new",
+                text="✼ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ✼",
+                url=f"https://t.me/{BOT_USERNAME}?startchannel=new",
             )
         ],
         [
             InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="♢˹ᴜᴘᴅᴀᴛᴇꜱ˼♢", url=config.SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(text="✯ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ✯", callback_data="settings_back_helper"),
         ],
         [
             InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", callback_data="source"),
-            InlineKeyboardButton(text="ღ 𝐎ᴡɴᴇʀ ღ", user_id=OWNER),
+            InlineKeyboardButton(text="♡ 𝐎ᴡɴᴇʀ ♡", user_id=OWNER),
         ],
     ]
     return buttons
