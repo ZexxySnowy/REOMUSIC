@@ -40,9 +40,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/PandaMusicSupport")
+    "SUPPORT_CHANNEL", "https://t.me/PandaMusicUpdates")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/PandaMusicUpdates")
+    "SUPPORT_GROUP", "https://t.me/PandaMusicSupport")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
